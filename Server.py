@@ -4,7 +4,6 @@ import os
 currentcwd = os.getcwd()
 now = datetime.now()
 import sys
-from flask import Flask, render_template
 testvar = "hello"
 current_time = now.strftime("%H:%M:%S")
 
